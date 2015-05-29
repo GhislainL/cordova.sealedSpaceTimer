@@ -1,0 +1,1273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>GLA-YOGA</Machine>
+    <WindowsUser>Ghislain</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <SolutionConfiguration>debug|anycpu</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>bbe09460-ed0e-11e4-bb4b-65ff3e66ea3a</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\build\windows\bld\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\build\windows\debug\anycpu\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\images\SplashScreen.scale-100.png">
+      <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\images\Square150x150Logo.scale-100.png">
+      <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\images\Square30x30Logo.scale-100.png">
+      <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\images\Square44x44Logo.scale-100.png">
+      <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\images\Square71x71Logo.scale-100.png">
+      <PackagePath>images\Square71x71Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\images\StoreLogo.scale-100.png">
+      <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-timer\docs\images\forkme.png">
+      <PackagePath>www\bower_components\angular-timer\docs\images\forkme.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\WinJS\css\ui-dark.css">
+      <PackagePath>WinJS\css\ui-dark.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\WinJS\css\ui-light.css">
+      <PackagePath>WinJS\css\ui-light.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-bootstrap\ui-bootstrap-csp.css">
+      <PackagePath>www\bower_components\angular-bootstrap\ui-bootstrap-csp.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-timer\docs\css\docs.css">
+      <PackagePath>www\bower_components\angular-timer\docs\css\docs.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-timer\docs\css\prettify.css">
+      <PackagePath>www\bower_components\angular-timer\docs\css\prettify.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular\angular-csp.css">
+      <PackagePath>www\bower_components\angular\angular-csp.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\dist\css\bootstrap-theme.css">
+      <PackagePath>www\bower_components\bootstrap\dist\css\bootstrap-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\dist\css\bootstrap-theme.min.css">
+      <PackagePath>www\bower_components\bootstrap\dist\css\bootstrap-theme.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\dist\css\bootstrap.css">
+      <PackagePath>www\bower_components\bootstrap\dist\css\bootstrap.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\dist\css\bootstrap.min.css">
+      <PackagePath>www\bower_components\bootstrap\dist\css\bootstrap.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\css\bootstrap.css">
+      <PackagePath>www\css\bootstrap.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\css\index.css">
+      <PackagePath>www\css\index.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\WinJS\fonts\Symbols.ttf">
+      <PackagePath>WinJS\fonts\Symbols.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf">
+      <PackagePath>www\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\fonts\glyphicons-halflings-regular.ttf">
+      <PackagePath>www\bower_components\bootstrap\fonts\glyphicons-halflings-regular.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\WinJS\js\en-US\ui.strings.js">
+      <PackagePath>WinJS\js\en-US\ui.strings.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\WinJS\js\WinJS.js">
+      <PackagePath>WinJS\js\WinJS.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-bootstrap\ui-bootstrap-tpls.js">
+      <PackagePath>www\bower_components\angular-bootstrap\ui-bootstrap-tpls.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-bootstrap\ui-bootstrap-tpls.min.js">
+      <PackagePath>www\bower_components\angular-bootstrap\ui-bootstrap-tpls.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-bootstrap\ui-bootstrap.js">
+      <PackagePath>www\bower_components\angular-bootstrap\ui-bootstrap.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-bootstrap\ui-bootstrap.min.js">
+      <PackagePath>www\bower_components\angular-bootstrap\ui-bootstrap.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-route\angular-route.js">
+      <PackagePath>www\bower_components\angular-route\angular-route.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-route\angular-route.min.js">
+      <PackagePath>www\bower_components\angular-route\angular-route.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-route\index.js">
+      <PackagePath>www\bower_components\angular-route\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-timer\app\js\i18nService.js">
+      <PackagePath>www\bower_components\angular-timer\app\js\i18nService.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-timer\app\js\_timer.js">
+      <PackagePath>www\bower_components\angular-timer\app\js\_timer.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-timer\config\karma-e2e.conf.js">
+      <PackagePath>www\bower_components\angular-timer\config\karma-e2e.conf.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-timer\config\karma.conf.js">
+      <PackagePath>www\bower_components\angular-timer\config\karma.conf.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-timer\dist\angular-timer.js">
+      <PackagePath>www\bower_components\angular-timer\dist\angular-timer.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-timer\dist\angular-timer.min.js">
+      <PackagePath>www\bower_components\angular-timer\dist\angular-timer.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-timer\docs\application.js">
+      <PackagePath>www\bower_components\angular-timer\docs\application.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-timer\docs\docs.js">
+      <PackagePath>www\bower_components\angular-timer\docs\docs.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-timer\docs\prettify.js">
+      <PackagePath>www\bower_components\angular-timer\docs\prettify.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-timer\Gruntfile.js">
+      <PackagePath>www\bower_components\angular-timer\Gruntfile.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-timer\test\e2e\scenarios.js">
+      <PackagePath>www\bower_components\angular-timer\test\e2e\scenarios.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-timer\test\unit\directivesSpec.js">
+      <PackagePath>www\bower_components\angular-timer\test\unit\directivesSpec.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-timer\test\unit\timerSetTimeTest.js">
+      <PackagePath>www\bower_components\angular-timer\test\unit\timerSetTimeTest.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-translate-loader-static-files\angular-translate-loader-static-files.js">
+      <PackagePath>www\bower_components\angular-translate-loader-static-files\angular-translate-loader-static-files.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-translate-loader-static-files\angular-translate-loader-static-files.min.js">
+      <PackagePath>www\bower_components\angular-translate-loader-static-files\angular-translate-loader-static-files.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-translate\angular-translate.js">
+      <PackagePath>www\bower_components\angular-translate\angular-translate.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-translate\angular-translate.min.js">
+      <PackagePath>www\bower_components\angular-translate\angular-translate.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular\angular.js">
+      <PackagePath>www\bower_components\angular\angular.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular\angular.min.js">
+      <PackagePath>www\bower_components\angular\angular.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular\index.js">
+      <PackagePath>www\bower_components\angular\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\dist\js\bootstrap.js">
+      <PackagePath>www\bower_components\bootstrap\dist\js\bootstrap.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\dist\js\bootstrap.min.js">
+      <PackagePath>www\bower_components\bootstrap\dist\js\bootstrap.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\dist\js\npm.js">
+      <PackagePath>www\bower_components\bootstrap\dist\js\npm.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\Gruntfile.js">
+      <PackagePath>www\bower_components\bootstrap\Gruntfile.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\grunt\bs-commonjs-generator.js">
+      <PackagePath>www\bower_components\bootstrap\grunt\bs-commonjs-generator.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\grunt\bs-glyphicons-data-generator.js">
+      <PackagePath>www\bower_components\bootstrap\grunt\bs-glyphicons-data-generator.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\grunt\bs-lessdoc-parser.js">
+      <PackagePath>www\bower_components\bootstrap\grunt\bs-lessdoc-parser.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\grunt\bs-raw-files-generator.js">
+      <PackagePath>www\bower_components\bootstrap\grunt\bs-raw-files-generator.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\js\affix.js">
+      <PackagePath>www\bower_components\bootstrap\js\affix.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\js\alert.js">
+      <PackagePath>www\bower_components\bootstrap\js\alert.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\js\button.js">
+      <PackagePath>www\bower_components\bootstrap\js\button.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\js\carousel.js">
+      <PackagePath>www\bower_components\bootstrap\js\carousel.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\js\collapse.js">
+      <PackagePath>www\bower_components\bootstrap\js\collapse.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\js\dropdown.js">
+      <PackagePath>www\bower_components\bootstrap\js\dropdown.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\js\modal.js">
+      <PackagePath>www\bower_components\bootstrap\js\modal.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\js\popover.js">
+      <PackagePath>www\bower_components\bootstrap\js\popover.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\js\scrollspy.js">
+      <PackagePath>www\bower_components\bootstrap\js\scrollspy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\js\tab.js">
+      <PackagePath>www\bower_components\bootstrap\js\tab.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\js\tooltip.js">
+      <PackagePath>www\bower_components\bootstrap\js\tooltip.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\js\transition.js">
+      <PackagePath>www\bower_components\bootstrap\js\transition.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\package.js">
+      <PackagePath>www\bower_components\bootstrap\package.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\humanize-duration\humanize-duration.js">
+      <PackagePath>www\bower_components\humanize-duration\humanize-duration.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\dist\jquery.js">
+      <PackagePath>www\bower_components\jquery\dist\jquery.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\dist\jquery.min.js">
+      <PackagePath>www\bower_components\jquery\dist\jquery.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\ajax.js">
+      <PackagePath>www\bower_components\jquery\src\ajax.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\ajax\jsonp.js">
+      <PackagePath>www\bower_components\jquery\src\ajax\jsonp.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\ajax\load.js">
+      <PackagePath>www\bower_components\jquery\src\ajax\load.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\ajax\parseJSON.js">
+      <PackagePath>www\bower_components\jquery\src\ajax\parseJSON.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\ajax\parseXML.js">
+      <PackagePath>www\bower_components\jquery\src\ajax\parseXML.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\ajax\script.js">
+      <PackagePath>www\bower_components\jquery\src\ajax\script.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\ajax\var\nonce.js">
+      <PackagePath>www\bower_components\jquery\src\ajax\var\nonce.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\ajax\var\rquery.js">
+      <PackagePath>www\bower_components\jquery\src\ajax\var\rquery.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\ajax\xhr.js">
+      <PackagePath>www\bower_components\jquery\src\ajax\xhr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\attributes.js">
+      <PackagePath>www\bower_components\jquery\src\attributes.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\attributes\attr.js">
+      <PackagePath>www\bower_components\jquery\src\attributes\attr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\attributes\classes.js">
+      <PackagePath>www\bower_components\jquery\src\attributes\classes.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\attributes\prop.js">
+      <PackagePath>www\bower_components\jquery\src\attributes\prop.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\attributes\support.js">
+      <PackagePath>www\bower_components\jquery\src\attributes\support.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\attributes\val.js">
+      <PackagePath>www\bower_components\jquery\src\attributes\val.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\callbacks.js">
+      <PackagePath>www\bower_components\jquery\src\callbacks.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\core.js">
+      <PackagePath>www\bower_components\jquery\src\core.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\core\access.js">
+      <PackagePath>www\bower_components\jquery\src\core\access.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\core\init.js">
+      <PackagePath>www\bower_components\jquery\src\core\init.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\core\parseHTML.js">
+      <PackagePath>www\bower_components\jquery\src\core\parseHTML.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\core\ready.js">
+      <PackagePath>www\bower_components\jquery\src\core\ready.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\core\var\rsingleTag.js">
+      <PackagePath>www\bower_components\jquery\src\core\var\rsingleTag.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\css.js">
+      <PackagePath>www\bower_components\jquery\src\css.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\css\addGetHookIf.js">
+      <PackagePath>www\bower_components\jquery\src\css\addGetHookIf.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\css\curCSS.js">
+      <PackagePath>www\bower_components\jquery\src\css\curCSS.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\css\defaultDisplay.js">
+      <PackagePath>www\bower_components\jquery\src\css\defaultDisplay.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\css\hiddenVisibleSelectors.js">
+      <PackagePath>www\bower_components\jquery\src\css\hiddenVisibleSelectors.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\css\support.js">
+      <PackagePath>www\bower_components\jquery\src\css\support.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\css\swap.js">
+      <PackagePath>www\bower_components\jquery\src\css\swap.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\css\var\cssExpand.js">
+      <PackagePath>www\bower_components\jquery\src\css\var\cssExpand.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\css\var\getStyles.js">
+      <PackagePath>www\bower_components\jquery\src\css\var\getStyles.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\css\var\isHidden.js">
+      <PackagePath>www\bower_components\jquery\src\css\var\isHidden.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\css\var\rmargin.js">
+      <PackagePath>www\bower_components\jquery\src\css\var\rmargin.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\css\var\rnumnonpx.js">
+      <PackagePath>www\bower_components\jquery\src\css\var\rnumnonpx.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\data.js">
+      <PackagePath>www\bower_components\jquery\src\data.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\data\accepts.js">
+      <PackagePath>www\bower_components\jquery\src\data\accepts.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\data\Data.js">
+      <PackagePath>www\bower_components\jquery\src\data\Data.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\data\var\data_priv.js">
+      <PackagePath>www\bower_components\jquery\src\data\var\data_priv.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\data\var\data_user.js">
+      <PackagePath>www\bower_components\jquery\src\data\var\data_user.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\deferred.js">
+      <PackagePath>www\bower_components\jquery\src\deferred.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\deprecated.js">
+      <PackagePath>www\bower_components\jquery\src\deprecated.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\dimensions.js">
+      <PackagePath>www\bower_components\jquery\src\dimensions.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\effects.js">
+      <PackagePath>www\bower_components\jquery\src\effects.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\effects\animatedSelector.js">
+      <PackagePath>www\bower_components\jquery\src\effects\animatedSelector.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\effects\Tween.js">
+      <PackagePath>www\bower_components\jquery\src\effects\Tween.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\event.js">
+      <PackagePath>www\bower_components\jquery\src\event.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\event\ajax.js">
+      <PackagePath>www\bower_components\jquery\src\event\ajax.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\event\alias.js">
+      <PackagePath>www\bower_components\jquery\src\event\alias.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\event\support.js">
+      <PackagePath>www\bower_components\jquery\src\event\support.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\exports\amd.js">
+      <PackagePath>www\bower_components\jquery\src\exports\amd.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\exports\global.js">
+      <PackagePath>www\bower_components\jquery\src\exports\global.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\intro.js">
+      <PackagePath>www\bower_components\jquery\src\intro.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\jquery.js">
+      <PackagePath>www\bower_components\jquery\src\jquery.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\manipulation.js">
+      <PackagePath>www\bower_components\jquery\src\manipulation.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\manipulation\support.js">
+      <PackagePath>www\bower_components\jquery\src\manipulation\support.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\manipulation\var\rcheckableType.js">
+      <PackagePath>www\bower_components\jquery\src\manipulation\var\rcheckableType.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\manipulation\_evalUrl.js">
+      <PackagePath>www\bower_components\jquery\src\manipulation\_evalUrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\offset.js">
+      <PackagePath>www\bower_components\jquery\src\offset.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\outro.js">
+      <PackagePath>www\bower_components\jquery\src\outro.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\queue.js">
+      <PackagePath>www\bower_components\jquery\src\queue.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\queue\delay.js">
+      <PackagePath>www\bower_components\jquery\src\queue\delay.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\selector-native.js">
+      <PackagePath>www\bower_components\jquery\src\selector-native.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\selector-sizzle.js">
+      <PackagePath>www\bower_components\jquery\src\selector-sizzle.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\selector.js">
+      <PackagePath>www\bower_components\jquery\src\selector.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\serialize.js">
+      <PackagePath>www\bower_components\jquery\src\serialize.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\sizzle\dist\sizzle.js">
+      <PackagePath>www\bower_components\jquery\src\sizzle\dist\sizzle.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\sizzle\dist\sizzle.min.js">
+      <PackagePath>www\bower_components\jquery\src\sizzle\dist\sizzle.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\traversing.js">
+      <PackagePath>www\bower_components\jquery\src\traversing.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\traversing\findFilter.js">
+      <PackagePath>www\bower_components\jquery\src\traversing\findFilter.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\traversing\var\rneedsContext.js">
+      <PackagePath>www\bower_components\jquery\src\traversing\var\rneedsContext.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\var\arr.js">
+      <PackagePath>www\bower_components\jquery\src\var\arr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\var\class2type.js">
+      <PackagePath>www\bower_components\jquery\src\var\class2type.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\var\concat.js">
+      <PackagePath>www\bower_components\jquery\src\var\concat.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\var\hasOwn.js">
+      <PackagePath>www\bower_components\jquery\src\var\hasOwn.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\var\indexOf.js">
+      <PackagePath>www\bower_components\jquery\src\var\indexOf.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\var\pnum.js">
+      <PackagePath>www\bower_components\jquery\src\var\pnum.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\var\push.js">
+      <PackagePath>www\bower_components\jquery\src\var\push.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\var\rnotwhite.js">
+      <PackagePath>www\bower_components\jquery\src\var\rnotwhite.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\var\slice.js">
+      <PackagePath>www\bower_components\jquery\src\var\slice.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\var\strundefined.js">
+      <PackagePath>www\bower_components\jquery\src\var\strundefined.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\var\support.js">
+      <PackagePath>www\bower_components\jquery\src\var\support.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\var\toString.js">
+      <PackagePath>www\bower_components\jquery\src\var\toString.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\wrap.js">
+      <PackagePath>www\bower_components\jquery\src\wrap.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\benchmarks\clone.js">
+      <PackagePath>www\bower_components\momentjs\benchmarks\clone.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\af.js">
+      <PackagePath>www\bower_components\momentjs\locale\af.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\ar-ma.js">
+      <PackagePath>www\bower_components\momentjs\locale\ar-ma.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\ar-sa.js">
+      <PackagePath>www\bower_components\momentjs\locale\ar-sa.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\ar-tn.js">
+      <PackagePath>www\bower_components\momentjs\locale\ar-tn.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\ar.js">
+      <PackagePath>www\bower_components\momentjs\locale\ar.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\az.js">
+      <PackagePath>www\bower_components\momentjs\locale\az.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\be.js">
+      <PackagePath>www\bower_components\momentjs\locale\be.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\bg.js">
+      <PackagePath>www\bower_components\momentjs\locale\bg.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\bn.js">
+      <PackagePath>www\bower_components\momentjs\locale\bn.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\bo.js">
+      <PackagePath>www\bower_components\momentjs\locale\bo.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\br.js">
+      <PackagePath>www\bower_components\momentjs\locale\br.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\bs.js">
+      <PackagePath>www\bower_components\momentjs\locale\bs.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\ca.js">
+      <PackagePath>www\bower_components\momentjs\locale\ca.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\cs.js">
+      <PackagePath>www\bower_components\momentjs\locale\cs.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\cv.js">
+      <PackagePath>www\bower_components\momentjs\locale\cv.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\cy.js">
+      <PackagePath>www\bower_components\momentjs\locale\cy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\da.js">
+      <PackagePath>www\bower_components\momentjs\locale\da.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\de-at.js">
+      <PackagePath>www\bower_components\momentjs\locale\de-at.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\de.js">
+      <PackagePath>www\bower_components\momentjs\locale\de.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\el.js">
+      <PackagePath>www\bower_components\momentjs\locale\el.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\en-au.js">
+      <PackagePath>www\bower_components\momentjs\locale\en-au.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\en-ca.js">
+      <PackagePath>www\bower_components\momentjs\locale\en-ca.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\en-gb.js">
+      <PackagePath>www\bower_components\momentjs\locale\en-gb.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\eo.js">
+      <PackagePath>www\bower_components\momentjs\locale\eo.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\es.js">
+      <PackagePath>www\bower_components\momentjs\locale\es.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\et.js">
+      <PackagePath>www\bower_components\momentjs\locale\et.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\eu.js">
+      <PackagePath>www\bower_components\momentjs\locale\eu.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\fa.js">
+      <PackagePath>www\bower_components\momentjs\locale\fa.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\fi.js">
+      <PackagePath>www\bower_components\momentjs\locale\fi.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\fo.js">
+      <PackagePath>www\bower_components\momentjs\locale\fo.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\fr-ca.js">
+      <PackagePath>www\bower_components\momentjs\locale\fr-ca.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\fr.js">
+      <PackagePath>www\bower_components\momentjs\locale\fr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\fy.js">
+      <PackagePath>www\bower_components\momentjs\locale\fy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\gl.js">
+      <PackagePath>www\bower_components\momentjs\locale\gl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\he.js">
+      <PackagePath>www\bower_components\momentjs\locale\he.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\hi.js">
+      <PackagePath>www\bower_components\momentjs\locale\hi.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\hr.js">
+      <PackagePath>www\bower_components\momentjs\locale\hr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\hu.js">
+      <PackagePath>www\bower_components\momentjs\locale\hu.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\hy-am.js">
+      <PackagePath>www\bower_components\momentjs\locale\hy-am.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\id.js">
+      <PackagePath>www\bower_components\momentjs\locale\id.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\is.js">
+      <PackagePath>www\bower_components\momentjs\locale\is.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\it.js">
+      <PackagePath>www\bower_components\momentjs\locale\it.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\ja.js">
+      <PackagePath>www\bower_components\momentjs\locale\ja.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\ka.js">
+      <PackagePath>www\bower_components\momentjs\locale\ka.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\km.js">
+      <PackagePath>www\bower_components\momentjs\locale\km.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\ko.js">
+      <PackagePath>www\bower_components\momentjs\locale\ko.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\lb.js">
+      <PackagePath>www\bower_components\momentjs\locale\lb.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\lt.js">
+      <PackagePath>www\bower_components\momentjs\locale\lt.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\lv.js">
+      <PackagePath>www\bower_components\momentjs\locale\lv.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\mk.js">
+      <PackagePath>www\bower_components\momentjs\locale\mk.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\ml.js">
+      <PackagePath>www\bower_components\momentjs\locale\ml.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\mr.js">
+      <PackagePath>www\bower_components\momentjs\locale\mr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\ms-my.js">
+      <PackagePath>www\bower_components\momentjs\locale\ms-my.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\my.js">
+      <PackagePath>www\bower_components\momentjs\locale\my.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\nb.js">
+      <PackagePath>www\bower_components\momentjs\locale\nb.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\ne.js">
+      <PackagePath>www\bower_components\momentjs\locale\ne.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\nl.js">
+      <PackagePath>www\bower_components\momentjs\locale\nl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\nn.js">
+      <PackagePath>www\bower_components\momentjs\locale\nn.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\pl.js">
+      <PackagePath>www\bower_components\momentjs\locale\pl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\pt-br.js">
+      <PackagePath>www\bower_components\momentjs\locale\pt-br.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\pt.js">
+      <PackagePath>www\bower_components\momentjs\locale\pt.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\ro.js">
+      <PackagePath>www\bower_components\momentjs\locale\ro.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\ru.js">
+      <PackagePath>www\bower_components\momentjs\locale\ru.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\sk.js">
+      <PackagePath>www\bower_components\momentjs\locale\sk.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\sl.js">
+      <PackagePath>www\bower_components\momentjs\locale\sl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\sq.js">
+      <PackagePath>www\bower_components\momentjs\locale\sq.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\sr-cyrl.js">
+      <PackagePath>www\bower_components\momentjs\locale\sr-cyrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\sr.js">
+      <PackagePath>www\bower_components\momentjs\locale\sr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\sv.js">
+      <PackagePath>www\bower_components\momentjs\locale\sv.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\ta.js">
+      <PackagePath>www\bower_components\momentjs\locale\ta.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\th.js">
+      <PackagePath>www\bower_components\momentjs\locale\th.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\tl-ph.js">
+      <PackagePath>www\bower_components\momentjs\locale\tl-ph.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\tr.js">
+      <PackagePath>www\bower_components\momentjs\locale\tr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\tzm-latn.js">
+      <PackagePath>www\bower_components\momentjs\locale\tzm-latn.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\tzm.js">
+      <PackagePath>www\bower_components\momentjs\locale\tzm.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\uk.js">
+      <PackagePath>www\bower_components\momentjs\locale\uk.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\uz.js">
+      <PackagePath>www\bower_components\momentjs\locale\uz.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\vi.js">
+      <PackagePath>www\bower_components\momentjs\locale\vi.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\zh-cn.js">
+      <PackagePath>www\bower_components\momentjs\locale\zh-cn.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\locale\zh-tw.js">
+      <PackagePath>www\bower_components\momentjs\locale\zh-tw.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\meteor\export.js">
+      <PackagePath>www\bower_components\momentjs\meteor\export.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\meteor\test.js">
+      <PackagePath>www\bower_components\momentjs\meteor\test.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\min\locales.js">
+      <PackagePath>www\bower_components\momentjs\min\locales.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\min\locales.min.js">
+      <PackagePath>www\bower_components\momentjs\min\locales.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\min\moment-with-locales.js">
+      <PackagePath>www\bower_components\momentjs\min\moment-with-locales.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\min\moment-with-locales.min.js">
+      <PackagePath>www\bower_components\momentjs\min\moment-with-locales.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\min\moment.min.js">
+      <PackagePath>www\bower_components\momentjs\min\moment.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\moment.js">
+      <PackagePath>www\bower_components\momentjs\moment.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\cordova.js">
+      <PackagePath>www\cordova.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\cordova_plugins.js">
+      <PackagePath>www\cordova_plugins.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\scripts\app.js">
+      <PackagePath>www\scripts\app.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\scripts\controllers\AboutCtrl.js">
+      <PackagePath>www\scripts\controllers\AboutCtrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\scripts\controllers\HomeCtrl.js">
+      <PackagePath>www\scripts\controllers\HomeCtrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\scripts\controllers\LanguageCtrl.js">
+      <PackagePath>www\scripts\controllers\LanguageCtrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\scripts\index.js">
+      <PackagePath>www\scripts\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\scripts\platformOverrides.js">
+      <PackagePath>www\scripts\platformOverrides.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\scripts\winstore-jscompat.js">
+      <PackagePath>www\scripts\winstore-jscompat.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower.json">
+      <PackagePath>www\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-bootstrap\.bower.json">
+      <PackagePath>www\bower_components\angular-bootstrap\.bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-bootstrap\bower.json">
+      <PackagePath>www\bower_components\angular-bootstrap\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-route\.bower.json">
+      <PackagePath>www\bower_components\angular-route\.bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-route\bower.json">
+      <PackagePath>www\bower_components\angular-route\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-route\package.json">
+      <PackagePath>www\bower_components\angular-route\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-timer\.bower.json">
+      <PackagePath>www\bower_components\angular-timer\.bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-timer\bower.json">
+      <PackagePath>www\bower_components\angular-timer\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-timer\package.json">
+      <PackagePath>www\bower_components\angular-timer\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-translate-loader-static-files\.bower.json">
+      <PackagePath>www\bower_components\angular-translate-loader-static-files\.bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-translate-loader-static-files\bower.json">
+      <PackagePath>www\bower_components\angular-translate-loader-static-files\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-translate\.bower.json">
+      <PackagePath>www\bower_components\angular-translate\.bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-translate\bower.json">
+      <PackagePath>www\bower_components\angular-translate\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular\.bower.json">
+      <PackagePath>www\bower_components\angular\.bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular\bower.json">
+      <PackagePath>www\bower_components\angular\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular\package.json">
+      <PackagePath>www\bower_components\angular\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\.bower.json">
+      <PackagePath>www\bower_components\bootstrap\.bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\bower.json">
+      <PackagePath>www\bower_components\bootstrap\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\grunt\configBridge.json">
+      <PackagePath>www\bower_components\bootstrap\grunt\configBridge.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\.csscomb.json">
+      <PackagePath>www\bower_components\bootstrap\less\.csscomb.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\package.json">
+      <PackagePath>www\bower_components\bootstrap\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\humanize-duration\.bower.json">
+      <PackagePath>www\bower_components\humanize-duration\.bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\humanize-duration\bower.json">
+      <PackagePath>www\bower_components\humanize-duration\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\humanize-duration\package.json">
+      <PackagePath>www\bower_components\humanize-duration\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\.bower.json">
+      <PackagePath>www\bower_components\jquery\.bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\bower.json">
+      <PackagePath>www\bower_components\jquery\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\.bower.json">
+      <PackagePath>www\bower_components\momentjs\.bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\bower.json">
+      <PackagePath>www\bower_components\momentjs\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\lang\locale-en.json">
+      <PackagePath>www\lang\locale-en.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\lang\locale-fr.json">
+      <PackagePath>www\lang\locale-fr.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-route\angular-route.min.js.map">
+      <PackagePath>www\bower_components\angular-route\angular-route.min.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular\angular.min.js.map">
+      <PackagePath>www\bower_components\angular\angular.min.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\dist\css\bootstrap-theme.css.map">
+      <PackagePath>www\bower_components\bootstrap\dist\css\bootstrap-theme.css.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\dist\css\bootstrap.css.map">
+      <PackagePath>www\bower_components\bootstrap\dist\css\bootstrap.css.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\dist\jquery.min.map">
+      <PackagePath>www\bower_components\jquery\dist\jquery.min.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\src\sizzle\dist\sizzle.min.map">
+      <PackagePath>www\bower_components\jquery\src\sizzle\dist\sizzle.min.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-route\README.md">
+      <PackagePath>www\bower_components\angular-route\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-timer\CHANGELOG.md">
+      <PackagePath>www\bower_components\angular-timer\CHANGELOG.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-timer\README.md">
+      <PackagePath>www\bower_components\angular-timer\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-translate-loader-static-files\README.md">
+      <PackagePath>www\bower_components\angular-translate-loader-static-files\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-translate\README.md">
+      <PackagePath>www\bower_components\angular-translate\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular\README.md">
+      <PackagePath>www\bower_components\angular\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\README.md">
+      <PackagePath>www\bower_components\bootstrap\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\humanize-duration\CONTRIBUTING.md">
+      <PackagePath>www\bower_components\humanize-duration\CONTRIBUTING.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\humanize-duration\README.md">
+      <PackagePath>www\bower_components\humanize-duration\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\CHANGELOG.md">
+      <PackagePath>www\bower_components\momentjs\CHANGELOG.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\meteor\README.md">
+      <PackagePath>www\bower_components\momentjs\meteor\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\README.md">
+      <PackagePath>www\bower_components\momentjs\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-timer\.gitignore">
+      <PackagePath>www\bower_components\angular-timer\.gitignore</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-timer\.travis.yml">
+      <PackagePath>www\bower_components\angular-timer\.travis.yml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\grunt\sauce_browsers.yml">
+      <PackagePath>www\bower_components\bootstrap\grunt\sauce_browsers.yml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-timer\examples.html">
+      <PackagePath>www\bower_components\angular-timer\examples.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-timer\examples\angularjs-add-countdown-seconds.html">
+      <PackagePath>www\bower_components\angular-timer\examples\angularjs-add-countdown-seconds.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-timer\examples\angularjs-multiple-timers.html">
+      <PackagePath>www\bower_components\angular-timer\examples\angularjs-multiple-timers.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-timer\examples\angularjs-polling-timer.html">
+      <PackagePath>www\bower_components\angular-timer\examples\angularjs-polling-timer.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-timer\examples\angularjs-single-timer.html">
+      <PackagePath>www\bower_components\angular-timer\examples\angularjs-single-timer.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-timer\examples\jquery-timer.html">
+      <PackagePath>www\bower_components\angular-timer\examples\jquery-timer.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-timer\examples\plain-javascript.html">
+      <PackagePath>www\bower_components\angular-timer\examples\plain-javascript.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-timer\examples\timer-with-autostart-false-and-starttime.html">
+      <PackagePath>www\bower_components\angular-timer\examples\timer-with-autostart-false-and-starttime.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-timer\index.html">
+      <PackagePath>www\bower_components\angular-timer\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-timer\navbar.html">
+      <PackagePath>www\bower_components\angular-timer\navbar.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-timer\test\e2e\runner.html">
+      <PackagePath>www\bower_components\angular-timer\test\e2e\runner.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\index.html">
+      <PackagePath>www\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\views\about.html">
+      <PackagePath>www\views\about.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\views\home.html">
+      <PackagePath>www\views\home.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-timer\examples\angularjs-reset-timer">
+      <PackagePath>www\bower_components\angular-timer\examples\angularjs-reset-timer</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\LICENSE">
+      <PackagePath>www\bower_components\bootstrap\LICENSE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\LICENSE">
+      <PackagePath>www\bower_components\momentjs\LICENSE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular-timer\LICENSE.txt">
+      <PackagePath>www\bower_components\angular-timer\LICENSE.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\humanize-duration\LICENSE.txt">
+      <PackagePath>www\bower_components\humanize-duration\LICENSE.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\jquery\MIT-LICENSE.txt">
+      <PackagePath>www\bower_components\jquery\MIT-LICENSE.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\angular\angular.min.js.gzip">
+      <PackagePath>www\bower_components\angular\angular.min.js.gzip</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.eot">
+      <PackagePath>www\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\fonts\glyphicons-halflings-regular.eot">
+      <PackagePath>www\bower_components\bootstrap\fonts\glyphicons-halflings-regular.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.svg">
+      <PackagePath>www\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\fonts\glyphicons-halflings-regular.svg">
+      <PackagePath>www\bower_components\bootstrap\fonts\glyphicons-halflings-regular.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.woff">
+      <PackagePath>www\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\fonts\glyphicons-halflings-regular.woff">
+      <PackagePath>www\bower_components\bootstrap\fonts\glyphicons-halflings-regular.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2">
+      <PackagePath>www\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\fonts\glyphicons-halflings-regular.woff2">
+      <PackagePath>www\bower_components\bootstrap\fonts\glyphicons-halflings-regular.woff2</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\grunt\.jshintrc">
+      <PackagePath>www\bower_components\bootstrap\grunt\.jshintrc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\js\.jshintrc">
+      <PackagePath>www\bower_components\bootstrap\js\.jshintrc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\js\.jscsrc">
+      <PackagePath>www\bower_components\bootstrap\js\.jscsrc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\.csslintrc">
+      <PackagePath>www\bower_components\bootstrap\less\.csslintrc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\alerts.less">
+      <PackagePath>www\bower_components\bootstrap\less\alerts.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\badges.less">
+      <PackagePath>www\bower_components\bootstrap\less\badges.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\bootstrap.less">
+      <PackagePath>www\bower_components\bootstrap\less\bootstrap.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\breadcrumbs.less">
+      <PackagePath>www\bower_components\bootstrap\less\breadcrumbs.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\button-groups.less">
+      <PackagePath>www\bower_components\bootstrap\less\button-groups.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\buttons.less">
+      <PackagePath>www\bower_components\bootstrap\less\buttons.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\carousel.less">
+      <PackagePath>www\bower_components\bootstrap\less\carousel.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\close.less">
+      <PackagePath>www\bower_components\bootstrap\less\close.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\code.less">
+      <PackagePath>www\bower_components\bootstrap\less\code.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\component-animations.less">
+      <PackagePath>www\bower_components\bootstrap\less\component-animations.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\dropdowns.less">
+      <PackagePath>www\bower_components\bootstrap\less\dropdowns.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\forms.less">
+      <PackagePath>www\bower_components\bootstrap\less\forms.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\glyphicons.less">
+      <PackagePath>www\bower_components\bootstrap\less\glyphicons.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\grid.less">
+      <PackagePath>www\bower_components\bootstrap\less\grid.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\input-groups.less">
+      <PackagePath>www\bower_components\bootstrap\less\input-groups.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\jumbotron.less">
+      <PackagePath>www\bower_components\bootstrap\less\jumbotron.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\labels.less">
+      <PackagePath>www\bower_components\bootstrap\less\labels.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\list-group.less">
+      <PackagePath>www\bower_components\bootstrap\less\list-group.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\media.less">
+      <PackagePath>www\bower_components\bootstrap\less\media.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\mixins.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\mixins\alerts.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\alerts.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\mixins\background-variant.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\background-variant.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\mixins\border-radius.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\border-radius.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\mixins\buttons.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\buttons.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\mixins\center-block.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\center-block.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\mixins\clearfix.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\clearfix.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\mixins\forms.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\forms.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\mixins\gradients.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\gradients.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\mixins\grid-framework.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\grid-framework.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\mixins\grid.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\grid.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\mixins\hide-text.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\hide-text.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\mixins\image.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\image.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\mixins\labels.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\labels.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\mixins\list-group.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\list-group.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\mixins\nav-divider.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\nav-divider.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\mixins\nav-vertical-align.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\nav-vertical-align.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\mixins\opacity.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\opacity.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\mixins\pagination.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\pagination.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\mixins\panels.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\panels.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\mixins\progress-bar.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\progress-bar.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\mixins\reset-filter.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\reset-filter.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\mixins\resize.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\resize.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\mixins\responsive-visibility.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\responsive-visibility.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\mixins\size.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\size.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\mixins\tab-focus.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\tab-focus.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\mixins\table-row.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\table-row.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\mixins\text-emphasis.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\text-emphasis.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\mixins\text-overflow.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\text-overflow.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\mixins\vendor-prefixes.less">
+      <PackagePath>www\bower_components\bootstrap\less\mixins\vendor-prefixes.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\modals.less">
+      <PackagePath>www\bower_components\bootstrap\less\modals.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\navbar.less">
+      <PackagePath>www\bower_components\bootstrap\less\navbar.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\navs.less">
+      <PackagePath>www\bower_components\bootstrap\less\navs.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\normalize.less">
+      <PackagePath>www\bower_components\bootstrap\less\normalize.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\pager.less">
+      <PackagePath>www\bower_components\bootstrap\less\pager.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\pagination.less">
+      <PackagePath>www\bower_components\bootstrap\less\pagination.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\panels.less">
+      <PackagePath>www\bower_components\bootstrap\less\panels.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\popovers.less">
+      <PackagePath>www\bower_components\bootstrap\less\popovers.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\print.less">
+      <PackagePath>www\bower_components\bootstrap\less\print.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\progress-bars.less">
+      <PackagePath>www\bower_components\bootstrap\less\progress-bars.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\responsive-embed.less">
+      <PackagePath>www\bower_components\bootstrap\less\responsive-embed.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\responsive-utilities.less">
+      <PackagePath>www\bower_components\bootstrap\less\responsive-utilities.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\scaffolding.less">
+      <PackagePath>www\bower_components\bootstrap\less\scaffolding.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\tables.less">
+      <PackagePath>www\bower_components\bootstrap\less\tables.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\theme.less">
+      <PackagePath>www\bower_components\bootstrap\less\theme.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\thumbnails.less">
+      <PackagePath>www\bower_components\bootstrap\less\thumbnails.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\tooltip.less">
+      <PackagePath>www\bower_components\bootstrap\less\tooltip.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\type.less">
+      <PackagePath>www\bower_components\bootstrap\less\type.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\utilities.less">
+      <PackagePath>www\bower_components\bootstrap\less\utilities.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\variables.less">
+      <PackagePath>www\bower_components\bootstrap\less\variables.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\bootstrap\less\wells.less">
+      <PackagePath>www\bower_components\bootstrap\less\wells.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\Moment.js.nuspec">
+      <PackagePath>www\bower_components\momentjs\Moment.js.nuspec</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\www\bower_components\momentjs\scripts\npm_prepublish.sh">
+      <PackagePath>www\bower_components\momentjs\scripts\npm_prepublish.sh</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\config.xml">
+      <PackagePath>config.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\build\windows\debug\anycpu\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

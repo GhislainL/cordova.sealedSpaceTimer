@@ -1,0 +1,17 @@
+C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\build\windows\debug\anycpu\resources.pri
+C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\build\windows\debug\anycpu\AppxManifest.xml
+C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\build\windows\debug\anycpu\CordovaApp.Windows10.build.appxrecipe
+C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\build\windows\bld\priconfig.xml
+C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\build\windows\bld\priconfig.xml.intermediate
+C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\build\windows\bld\layout.resfiles
+C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\build\windows\bld\layout.resfiles.intermediate
+C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\build\windows\bld\resources.resfiles
+C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\build\windows\bld\resources.resfiles.intermediate
+C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\build\windows\bld\pri.resfiles
+C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\build\windows\bld\pri.resfiles.intermediate
+C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\build\windows\bld\qualifiers.txt
+C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\build\windows\bld\qualifiers.txt.intermediate
+C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\build\windows\bld\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\build\windows\bld\ProjectArchitectures.txt
+C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\build\windows\bld\package.map.txt
+C:\Users\Ghislain\Documents\Visual Studio 2015\Projects\cordova.sealedspacetimer\cordova.sealedspacetimer\BlankCordovaWin1\platforms\windows\build\windows\bld\_pkginfo.txt

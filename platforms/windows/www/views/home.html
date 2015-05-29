@@ -1,0 +1,154 @@
+﻿<div ng-controller="HomeCtrl">
+    <div class="row">
+        <div class="col-xs-6">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title"><span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>&nbsp;&nbsp;{{ 'HOME_WHERE' | translate}}</h3>
+                </div>
+                <div class="panel-body">
+                    <p>
+                        <div class="btn-group" data-toggle="buttons">
+                            <label class="btn btn-primary" btn-radio="'rectangle'" ng-change="change()" ng-model="shape">
+                                {{ 'HOME_SHAPE_RECTANGLE' | translate}}
+                            </label>
+                            <label class="btn btn-primary" btn-radio="'sphere'" ng-change="change()" ng-model="shape">
+                                {{ 'HOME_SHAPE_SPHERE' | translate}}
+                            </label>
+                            <label class="btn btn-primary" btn-radio="'cylindre'" ng-change="change()" ng-model="shape">
+                                {{ 'HOME_SHAPE_CYLINDER' | translate}}
+                            </label>
+                            <label class="btn btn-primary" btn-radio="''" ng-change="change()" ng-model="shape">
+                                {{ 'HOME_SHAPE_KNOWN' | translate}}
+                            </label>
+                        </div>
+                    </p>
+                    <!-- Volume connu -->
+                    <form class="form-horizontal" ng-show="shape === ''">
+                        <div class="form-group">
+                            <label for="volume" class="col-sm-2 control-label">{{ 'HOME_VOLUME' | translate}}</label>
+                            <div class="col-xs-6">
+                                <div class="input-group">
+                                    <input type="number" class="form-control" id="volume" ng-model="volume" required min="0">
+                                    <span class="input-group-addon"><strong>m3</strong></span>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <!-- Sphere -->
+                    <form class="form-horizontal" ng-show="shape === 'sphere'">
+                        <div class="form-group">
+                            <label for="Rayon" class="col-sm-2 control-label">{{ 'HOME_RADIUS' | translate}}</label>
+                            <div class="col-xs-6">
+                                <div class="input-group">
+                                    <input type="number" class="form-control" id="Rayon" ng-model="rayon" required min="0">
+                                    <span class="input-group-addon"><strong>m</strong></span>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <!-- Cylindre -->
+                    <form class="form-horizontal" ng-show="shape === 'cylindre'">
+                        <div class="form-group">
+                            <label for="hauteur" class="col-sm-2 control-label">{{ 'HOME_HEIGHT' | translate}}</label>
+                            <div class="col-xs-6">
+                                <div class="input-group">
+                                    <input type="number" id="hauteur" ng-model="hauteur" min="0" required class="form-control">
+                                    <span class="input-group-addon"><strong>m</strong></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="rayon" class="col-sm-2 control-label">{{ 'HOME_RADIUS' | translate}}</label>
+                            <div class="col-xs-6">
+                                <div class="input-group">
+                                    <input type="number" id="rayon" ng-model="rayon" min="0" required class="form-control">
+                                    <span class="input-group-addon"><strong>m</strong></span>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <!-- Rectangle -->
+                    <form class="form-horizontal" ng-show="shape === 'rectangle'">
+                        <div class="form-group">
+                            <label for="largeur" class="col-sm-2 control-label">{{ 'HOME_WIDTH' | translate}}</label>
+                            <div class="col-xs-6">
+                                <div class="input-group">
+                                    <input type="number" id="largeur" ng-model="largeur" min="0" required class="form-control">
+                                    <span class="input-group-addon"><strong>m</strong></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="longueur" class="col-sm-2 control-label">{{ 'HOME_LENGTH' | translate}}</label>
+                            <div class="col-xs-6">
+                                <div class="input-group">
+                                    <input type="number" id="longueur" ng-model="longueur" min="0" required class="form-control">
+                                    <span class="input-group-addon"><strong>m</strong></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="hauteur2" class="col-sm-2 control-label">{{ 'HOME_HEIGHT' | translate}}</label>
+                            <div class="col-xs-6">
+                                <div class="input-group">
+                                    <input type="number" id="hauteur2" ng-model="hauteur" min="0" required class="form-control ">
+                                    <span class="input-group-addon"><strong>m</strong></span>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-6">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>&nbsp;{{ 'HOME_HOW_MANY' | translate}}</h3>
+                </div>
+                <div class="panel-body">
+                    <p>{{ 'HOME_HOW_MANY_CAUTION' | translate}}</p>
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <label for="nbPersonne" class="col-sm-2 control-label">{{ 'HOME_NUMBER' | translate}}</label>
+                            <div class="col-xs-6">
+                                <div class="input-group">
+                                    <input type="number" id="nbPersonne" ng-model="nbPersonne" min="1" required class="form-control">
+                                    <span class="input-group-addon">
+                                        <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <p>
+                        {{ 'HOME_PANIC' | translate}}
+                    </p>
+                    <div class="alert alert-warning" role="alert" ng-show="computeVolume() > 0 && !isEnoughSpace()">
+                        <strong>{{ 'HOME_WARNING' | translate}}</strong> {{ 'HOME_WANRING_DETAILS' | translate}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="panel panel-danger">
+                <div class="panel-heading">
+
+                    <h3 class="panel-title"><span class="glyphicon glyphicon-hourglass" aria-hidden="true"></span>&nbsp;&nbsp;{{ 'HOME_COUNTDOWN' | translate}}</h3>
+                </div>
+                <div class="panel-body">
+                    <p class="text-center lead" ng-show="timerRunning">
+                        <timer interval="1000" countdown="computeTimeLeft()" autostart="false">{{hhours}}:{{mminutes}}:{{sseconds}}</timer>
+                    </p>
+                    <p class="text-center" ng-hide="timerRunning">
+                        <button type="button" class="btn btn-danger " ng-disabled="computeTimeLeft() == 0" ng-click="startTimer()">
+                            <span class="glyphicon glyphicon-play" aria-hidden="true"></span>&nbsp;&nbsp;
+                            {{ 'HOME_BTN_TIMER' | translate}}
+                        </button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Sealed Space Timer</title>
+
+    <!-- BlankCordovaWin1 references -->
+    <link href="css/index.css" rel="stylesheet" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://bootswatch.com/united/bootstrap.css">
+</head>
+<body>
+    <!-- Cordova reference, this is added to your app when it's built. -->
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-route/angular-route.min.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
+    <script src="bower_components/momentjs/min/moment.min.js"></script>
+    <script src="bower_components/humanize-duration/humanize-duration.js"></script>
+    <script src="bower_components/angular-timer/dist/angular-timer.min.js"></script>
+    <script src="bower_components/angular-translate/angular-translate.min.js"></script>
+    <script src="bower_components/angular-translate-loader-static-files/angular-translate-loader-static-files.min.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script src="scripts/app.js"></script>
+    <script src="scripts/controllers/LanguageCtrl.js"></script>
+    <script src="scripts/controllers/HomeCtrl.js"></script>
+    <script src="scripts/controllers/AboutCtrl.js"></script>
+    <script src="cordova.js"></script>
+    <script src="scripts/platformOverrides.js"></script>
+
+    <script src="scripts/index.js"></script>
+    <div ng-app="MyApp">
+        <div class="container">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#/home">{{ 'SITE_TITLE' | translate}}</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right" ng-controller="LanguageCtrl">
+                            <li><a href="#/about"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>&nbsp;&nbsp;{{ 'SITE_ABOUT' | translate}}</a></li>
+                            <li><a href="" ng-click="changeLanguage('fr')" translate="LANG_BTN_FR"></a></li>
+                            <li><a href="" ng-click="changeLanguage('en')" translate="LANG_BTN_EN"></a></li>
+                        </ul>
+                    </div>
+                </div><!-- /.container-fluid -->
+            </nav>
+            <div ng-view></div>
+        </div>
+    </div>
+</body>
+</html>

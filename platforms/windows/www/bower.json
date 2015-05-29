@@ -1,0 +1,25 @@
+﻿{
+  "name": "ng-SealedSpaceTimer",
+  "version": "1.2",
+  "homepage": "https://github.com/GhislainL/ng-SealedSpaceTimer",
+  "authors": [
+    "Ghislain Lerda"
+  ],
+  "license": "CC-BY-NC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.4.0-rc.1",
+    "angular-timer": "~1.3.1",
+    "bootstrap": "~3.3.4",
+    "angular-bootstrap": "~0.13.0",
+    "angular-translate": "~2.7.0",
+    "angular-route": "1.4.0-rc.1",
+    "angular-translate-loader-static-files": "~2.7.0"
+  }
+}
